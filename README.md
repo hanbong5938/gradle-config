@@ -47,5 +47,15 @@ dependencies {
 }
 ```
 
+혹은 
+
+```kotlin
+dependencies {
+   implementation(libs.spring.security.rsa)
+}
+```
+ 이렇게 설정할 수 있습니다
+
+
 이제 프로젝트에서 `libs.versions.toml`에 정의된 버전을 활용하여 일관된 의존성 관리를 할 수 있습니다.
 
