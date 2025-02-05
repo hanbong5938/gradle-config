@@ -13,3 +13,6 @@ dependencyManagement = { id = "io.spring.dependency-management", version.ref = "
 kotlinKapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlinKapt" }
 kotlinJvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlinJvm" }
 kotlinSpring = { id = "org.jetbrains.kotlin.plugin.spring", version.ref = "kotlinSpring" }
+
+[libraries]
+spring-security-rsa = { module = "org.springframework.security:spring-security-rsa", version.ref = "rsa" }
